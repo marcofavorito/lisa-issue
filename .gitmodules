@@ -1,0 +1,15 @@
+[submodule "third_party/spot"]
+	path = third_party/spot
+	url = https://gitlab.lrde.epita.fr/spot/spot
+[submodule "third_party/cudd"]
+	path = third_party/cudd
+	url = https://github.com/KavrakiLab/cudd
+[submodule "third_party/MONA"]
+	path = third_party/MONA
+	url = https://github.com/whitemech/MONA
+[submodule "third_party/lisa"]
+	path = third_party/lisa
+	url = https://github.com/vardigroup/lisa.git
+[submodule "third_party/Syft"]
+	path = third_party/Syft
+	url = https://github.com/saffiepig/Syft.git
