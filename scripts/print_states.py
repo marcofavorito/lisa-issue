@@ -19,7 +19,7 @@ stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding="utf-8"
 )
 
 def get_mona_states(file: Path) -> Tuple[int, List[str]]:
-    cmd_1 = ["ltlf2fol", "BNF", str(file)]
+    cmd_1 = ["./ltlf2fol", "BNF", str(file)]
     proc = subprocess.Popen(cmd_1, **default_subprocess_config)
     output, err = proc.communicate()
     name = "tmp.mona"

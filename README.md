@@ -93,7 +93,39 @@ Ideally, these numbers should be the same; however, this does not happen for sev
 python scripts/print_states.py
 ```
 
-You will get something like:
+You will get a `.tsv` like:
 ```
+dataset file    MONA command    Lisa command    MONA DFA #states        Lisa DFA #states
+datasets/ex_lisa/cc.ltlf                './ltlf2fol BNF datasets/ex_lisa/cc.ltlf && mona -u tmp.mona'           './bin/lisa -exp -ltlf datasets/ex_lisa/cc.ltlf'                        7       1
+datasets/ex_lisa/counter_1.ltlf         './ltlf2fol BNF datasets/ex_lisa/counter_1.ltlf && mona -u tmp.mona'    './bin/lisa -exp -ltlf datasets/ex_lisa/counter_1.ltlf'                 7       1
+datasets/ex_lisa/counter_2.ltlf         './ltlf2fol BNF datasets/ex_lisa/counter_2.ltlf && mona -u tmp.mona'    './bin/lisa -exp -ltlf datasets/ex_lisa/counter_2.ltlf'                 13      1
+datasets/ex_lisa/counters_1.ltlf        './ltlf2fol BNF datasets/ex_lisa/counters_1.ltlf && mona -u tmp.mona'   './bin/lisa -exp -ltlf datasets/ex_lisa/counters_1.ltlf'                13      1
+datasets/ex_lisa/counters_2.ltlf        './ltlf2fol BNF datasets/ex_lisa/counters_2.ltlf && mona -u tmp.mona'   './bin/lisa -exp -ltlf datasets/ex_lisa/counters_2.ltlf'                47      1
+datasets/ex_lisa/ltlf3377.ltlf          './ltlf2fol BNF datasets/ex_lisa/ltlf3377.ltlf && mona -u tmp.mona'     './bin/lisa -exp -ltlf datasets/ex_lisa/ltlf3377.ltlf'                  3377    3377
+datasets/ex_lisa/req.ltlf               './ltlf2fol BNF datasets/ex_lisa/req.ltlf && mona -u tmp.mona'          './bin/lisa -exp -ltlf datasets/ex_lisa/req.ltlf'                       17      17
+datasets/ex_lisa/req1.ltlf              './ltlf2fol BNF datasets/ex_lisa/req1.ltlf && mona -u tmp.mona'         './bin/lisa -exp -ltlf datasets/ex_lisa/req1.ltlf'                      8       6
+datasets/ex_lisa/testcase.ltlf          './ltlf2fol BNF datasets/ex_lisa/testcase.ltlf && mona -u tmp.mona'     './bin/lisa -exp -ltlf datasets/ex_lisa/testcase.ltlf'                  6       5
+datasets/len_1/001.ltlf                 './ltlf2fol BNF datasets/len_1/001.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/001.ltlf'                         3       6
+datasets/len_1/002.ltlf                 './ltlf2fol BNF datasets/len_1/002.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/002.ltlf'                         35      1
+datasets/len_1/003.ltlf                 './ltlf2fol BNF datasets/len_1/003.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/003.ltlf'                         1       1
+datasets/len_1/004.ltlf                 './ltlf2fol BNF datasets/len_1/004.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/004.ltlf'                         3       6
+datasets/len_1/005.ltlf                 './ltlf2fol BNF datasets/len_1/005.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/005.ltlf'                         516     1
+datasets/len_1/006.ltlf                 './ltlf2fol BNF datasets/len_1/006.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/006.ltlf'                         3       6
+datasets/len_1/007.ltlf                 './ltlf2fol BNF datasets/len_1/007.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/007.ltlf'                         515     1
+datasets/len_1/008.ltlf                 './ltlf2fol BNF datasets/len_1/008.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/008.ltlf'                         67      66
+datasets/len_1/009.ltlf                 './ltlf2fol BNF datasets/len_1/009.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/009.ltlf'                         3       6
+datasets/len_1/010.ltlf                 './ltlf2fol BNF datasets/len_1/010.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/010.ltlf'                         3       6
+datasets/len_1/011.ltlf                 './ltlf2fol BNF datasets/len_1/011.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/011.ltlf'                         132     1
+datasets/len_1/012.ltlf                 './ltlf2fol BNF datasets/len_1/012.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/012.ltlf'                         3       6
+datasets/len_1/013.ltlf                 './ltlf2fol BNF datasets/len_1/013.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/013.ltlf'                         35      1
+datasets/len_1/014.ltlf                 './ltlf2fol BNF datasets/len_1/014.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/014.ltlf'                         131     1
+datasets/len_1/015.ltlf                 './ltlf2fol BNF datasets/len_1/015.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/015.ltlf'                         68      1
+datasets/len_1/016.ltlf                 './ltlf2fol BNF datasets/len_1/016.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/016.ltlf'                         1       1
+datasets/len_1/017.ltlf                 './ltlf2fol BNF datasets/len_1/017.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/017.ltlf'                         67      1
+datasets/len_1/018.ltlf                 './ltlf2fol BNF datasets/len_1/018.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/018.ltlf'                         259     1
+datasets/len_1/019.ltlf                 './ltlf2fol BNF datasets/len_1/019.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/019.ltlf'                         35      1
+datasets/len_1/020.ltlf                 './ltlf2fol BNF datasets/len_1/020.ltlf && mona -u tmp.mona'            './bin/lisa -exp -ltlf datasets/len_1/020.ltlf'                         132     1
 
 ```
+
+An example is in `output-example.tsv`.
