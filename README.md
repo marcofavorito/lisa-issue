@@ -1,8 +1,13 @@
 # Issue on DFA construction of Lisa
 
+Link to the issue:
+https://github.com/vardigroup/lisa/issues/2
+
 This repository contains the scripts to reproduce an issue
 I found on [Lisa](https://github.com/vardigroup/lisa),
-a SOTA tool for LTLf synthesis. It has been published
+a SOTA tool for LTLf synthesis. 
+
+Lisa is a tool published
 in the following publication:
 
 [Hybrid Compositional Reasoning for Reactive Synthesisfrom Finite-Horizon Specifications](https://arxiv.org/pdf/1911.08145.pdf)
