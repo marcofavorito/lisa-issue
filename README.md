@@ -51,7 +51,7 @@ Then, to drop a shell into the image:
 docker run -it lisa-issue-test /bin/bash
 ```
 
-Now yoyu 
+Now you can run the "Reproduce" section inside the Docker image.
 
 #### Run installation script
 
