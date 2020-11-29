@@ -1,241 +1,274 @@
 dataset file	MONA command	Lisa command	MONA DFA #states	Lisa DFA #states
-datasets/ex_lisa/cc.ltlf        	'./ltlf2fol BNF datasets/ex_lisa/cc.ltlf && mona -u tmp.mona'     	'./bin/lisa -exp -ltlf datasets/ex_lisa/cc.ltlf'                  	7	1
-datasets/ex_lisa/counter_1.ltlf 	'./ltlf2fol BNF datasets/ex_lisa/counter_1.ltlf && mona -u tmp.mona'	'./bin/lisa -exp -ltlf datasets/ex_lisa/counter_1.ltlf'           	7	1
-datasets/ex_lisa/counter_2.ltlf 	'./ltlf2fol BNF datasets/ex_lisa/counter_2.ltlf && mona -u tmp.mona'	'./bin/lisa -exp -ltlf datasets/ex_lisa/counter_2.ltlf'           	13	1
-datasets/ex_lisa/counters_1.ltlf	'./ltlf2fol BNF datasets/ex_lisa/counters_1.ltlf && mona -u tmp.mona'	'./bin/lisa -exp -ltlf datasets/ex_lisa/counters_1.ltlf'          	13	1
-datasets/ex_lisa/counters_2.ltlf	'./ltlf2fol BNF datasets/ex_lisa/counters_2.ltlf && mona -u tmp.mona'	'./bin/lisa -exp -ltlf datasets/ex_lisa/counters_2.ltlf'          	47	1
-datasets/ex_lisa/ltlf3377.ltlf  	'./ltlf2fol BNF datasets/ex_lisa/ltlf3377.ltlf && mona -u tmp.mona'	'./bin/lisa -exp -ltlf datasets/ex_lisa/ltlf3377.ltlf'            	3377	3377
-datasets/ex_lisa/req.ltlf       	'./ltlf2fol BNF datasets/ex_lisa/req.ltlf && mona -u tmp.mona'    	'./bin/lisa -exp -ltlf datasets/ex_lisa/req.ltlf'                 	17	17
-datasets/ex_lisa/req1.ltlf      	'./ltlf2fol BNF datasets/ex_lisa/req1.ltlf && mona -u tmp.mona'   	'./bin/lisa -exp -ltlf datasets/ex_lisa/req1.ltlf'                	8	6
-datasets/ex_lisa/testcase.ltlf  	'./ltlf2fol BNF datasets/ex_lisa/testcase.ltlf && mona -u tmp.mona'	'./bin/lisa -exp -ltlf datasets/ex_lisa/testcase.ltlf'            	6	5
-datasets/len_1/001.ltlf         	'./ltlf2fol BNF datasets/len_1/001.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/001.ltlf'                   	3	6
-datasets/len_1/002.ltlf         	'./ltlf2fol BNF datasets/len_1/002.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/002.ltlf'                   	35	1
-datasets/len_1/003.ltlf         	'./ltlf2fol BNF datasets/len_1/003.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/003.ltlf'                   	1	1
-datasets/len_1/004.ltlf         	'./ltlf2fol BNF datasets/len_1/004.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/004.ltlf'                   	3	6
-datasets/len_1/005.ltlf         	'./ltlf2fol BNF datasets/len_1/005.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/005.ltlf'                   	516	1
-datasets/len_1/006.ltlf         	'./ltlf2fol BNF datasets/len_1/006.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/006.ltlf'                   	3	6
-datasets/len_1/007.ltlf         	'./ltlf2fol BNF datasets/len_1/007.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/007.ltlf'                   	515	1
-datasets/len_1/008.ltlf         	'./ltlf2fol BNF datasets/len_1/008.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/008.ltlf'                   	67	66
-datasets/len_1/009.ltlf         	'./ltlf2fol BNF datasets/len_1/009.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/009.ltlf'                   	3	6
-datasets/len_1/010.ltlf         	'./ltlf2fol BNF datasets/len_1/010.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/010.ltlf'                   	3	6
-datasets/len_1/011.ltlf         	'./ltlf2fol BNF datasets/len_1/011.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/011.ltlf'                   	132	1
-datasets/len_1/012.ltlf         	'./ltlf2fol BNF datasets/len_1/012.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/012.ltlf'                   	3	6
-datasets/len_1/013.ltlf         	'./ltlf2fol BNF datasets/len_1/013.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/013.ltlf'                   	35	1
-datasets/len_1/014.ltlf         	'./ltlf2fol BNF datasets/len_1/014.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/014.ltlf'                   	131	1
-datasets/len_1/015.ltlf         	'./ltlf2fol BNF datasets/len_1/015.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/015.ltlf'                   	68	1
-datasets/len_1/016.ltlf         	'./ltlf2fol BNF datasets/len_1/016.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/016.ltlf'                   	1	1
-datasets/len_1/017.ltlf         	'./ltlf2fol BNF datasets/len_1/017.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/017.ltlf'                   	67	1
-datasets/len_1/018.ltlf         	'./ltlf2fol BNF datasets/len_1/018.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/018.ltlf'                   	259	1
-datasets/len_1/019.ltlf         	'./ltlf2fol BNF datasets/len_1/019.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/019.ltlf'                   	35	1
-datasets/len_1/020.ltlf         	'./ltlf2fol BNF datasets/len_1/020.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/020.ltlf'                   	132	1
-datasets/len_1/021.ltlf         	'./ltlf2fol BNF datasets/len_1/021.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/021.ltlf'                   	515	1
-datasets/len_1/022.ltlf         	'./ltlf2fol BNF datasets/len_1/022.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/022.ltlf'                   	35	34
-datasets/len_1/023.ltlf         	'./ltlf2fol BNF datasets/len_1/023.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/023.ltlf'                   	1	1
-datasets/len_1/024.ltlf         	'./ltlf2fol BNF datasets/len_1/024.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/024.ltlf'                   	68	4
-datasets/len_1/025.ltlf         	'./ltlf2fol BNF datasets/len_1/025.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/025.ltlf'                   	260	4
-datasets/len_1/026.ltlf         	'./ltlf2fol BNF datasets/len_1/026.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/026.ltlf'                   	3	7
-datasets/len_1/027.ltlf         	'./ltlf2fol BNF datasets/len_1/027.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/027.ltlf'                   	132	4
-datasets/len_1/028.ltlf         	'./ltlf2fol BNF datasets/len_1/028.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/028.ltlf'                   	35	1
-datasets/len_1/029.ltlf         	'./ltlf2fol BNF datasets/len_1/029.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/029.ltlf'                   	3	6
-datasets/len_1/030.ltlf         	'./ltlf2fol BNF datasets/len_1/030.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/030.ltlf'                   	3	6
-datasets/len_1/031.ltlf         	'./ltlf2fol BNF datasets/len_1/031.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/031.ltlf'                   	259	1
-datasets/len_1/032.ltlf         	'./ltlf2fol BNF datasets/len_1/032.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/032.ltlf'                   	3	6
-datasets/len_1/033.ltlf         	'./ltlf2fol BNF datasets/len_1/033.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/033.ltlf'                   	3	7
-datasets/len_1/034.ltlf         	'./ltlf2fol BNF datasets/len_1/034.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/034.ltlf'                   	36	1
-datasets/len_1/035.ltlf         	'./ltlf2fol BNF datasets/len_1/035.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/035.ltlf'                   	3	6
-datasets/len_1/036.ltlf         	'./ltlf2fol BNF datasets/len_1/036.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/036.ltlf'                   	515	1
-datasets/len_1/037.ltlf         	'./ltlf2fol BNF datasets/len_1/037.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/037.ltlf'                   	3	6
-datasets/len_1/038.ltlf         	'./ltlf2fol BNF datasets/len_1/038.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/038.ltlf'                   	3	7
-datasets/len_1/039.ltlf         	'./ltlf2fol BNF datasets/len_1/039.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/039.ltlf'                   	1	1
-datasets/len_1/040.ltlf         	'./ltlf2fol BNF datasets/len_1/040.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/040.ltlf'                   	3	6
-datasets/len_1/041.ltlf         	'./ltlf2fol BNF datasets/len_1/041.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/041.ltlf'                   	132	4
-datasets/len_1/042.ltlf         	'./ltlf2fol BNF datasets/len_1/042.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/042.ltlf'                   	131	1
-datasets/len_1/043.ltlf         	'./ltlf2fol BNF datasets/len_1/043.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/043.ltlf'                   	131	1
-datasets/len_1/044.ltlf         	'./ltlf2fol BNF datasets/len_1/044.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/044.ltlf'                   	3	7
-datasets/len_1/045.ltlf         	'./ltlf2fol BNF datasets/len_1/045.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/045.ltlf'                   	259	258
-datasets/len_1/046.ltlf         	'./ltlf2fol BNF datasets/len_1/046.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/046.ltlf'                   	3	6
-datasets/len_1/047.ltlf         	'./ltlf2fol BNF datasets/len_1/047.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/047.ltlf'                   	259	1
-datasets/len_1/048.ltlf         	'./ltlf2fol BNF datasets/len_1/048.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/048.ltlf'                   	3	6
-datasets/len_1/049.ltlf         	'./ltlf2fol BNF datasets/len_1/049.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/049.ltlf'                   	68	4
-datasets/len_1/050.ltlf         	'./ltlf2fol BNF datasets/len_1/050.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/050.ltlf'                   	3	6
-datasets/len_1/051.ltlf         	'./ltlf2fol BNF datasets/len_1/051.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/051.ltlf'                   	515	1
-datasets/len_1/052.ltlf         	'./ltlf2fol BNF datasets/len_1/052.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/052.ltlf'                   	259	258
-datasets/len_1/053.ltlf         	'./ltlf2fol BNF datasets/len_1/053.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/053.ltlf'                   	67	1
-datasets/len_1/054.ltlf         	'./ltlf2fol BNF datasets/len_1/054.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/054.ltlf'                   	68	4
-datasets/len_1/055.ltlf         	'./ltlf2fol BNF datasets/len_1/055.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/055.ltlf'                   	1	1
-datasets/len_1/056.ltlf         	'./ltlf2fol BNF datasets/len_1/056.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/056.ltlf'                   	36	1
-datasets/len_1/057.ltlf         	'./ltlf2fol BNF datasets/len_1/057.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/057.ltlf'                   	259	1
-datasets/len_1/058.ltlf         	'./ltlf2fol BNF datasets/len_1/058.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/058.ltlf'                   	67	1
-datasets/len_1/059.ltlf         	'./ltlf2fol BNF datasets/len_1/059.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/059.ltlf'                   	3	6
-datasets/len_1/060.ltlf         	'./ltlf2fol BNF datasets/len_1/060.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/060.ltlf'                   	3	6
-datasets/len_1/061.ltlf         	'./ltlf2fol BNF datasets/len_1/061.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/061.ltlf'                   	3	6
-datasets/len_1/062.ltlf         	'./ltlf2fol BNF datasets/len_1/062.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/062.ltlf'                   	1	1
-datasets/len_1/063.ltlf         	'./ltlf2fol BNF datasets/len_1/063.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/063.ltlf'                   	1	1
-datasets/len_1/064.ltlf         	'./ltlf2fol BNF datasets/len_1/064.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/064.ltlf'                   	3	6
-datasets/len_1/065.ltlf         	'./ltlf2fol BNF datasets/len_1/065.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/065.ltlf'                   	516	4
-datasets/len_1/066.ltlf         	'./ltlf2fol BNF datasets/len_1/066.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/066.ltlf'                   	3	6
-datasets/len_1/067.ltlf         	'./ltlf2fol BNF datasets/len_1/067.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/067.ltlf'                   	515	1
-datasets/len_1/068.ltlf         	'./ltlf2fol BNF datasets/len_1/068.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/068.ltlf'                   	260	1
-datasets/len_1/069.ltlf         	'./ltlf2fol BNF datasets/len_1/069.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/069.ltlf'                   	3	6
-datasets/len_1/070.ltlf         	'./ltlf2fol BNF datasets/len_1/070.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/070.ltlf'                   	515	1
-datasets/len_1/071.ltlf         	'./ltlf2fol BNF datasets/len_1/071.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/071.ltlf'                   	3	6
-datasets/len_1/072.ltlf         	'./ltlf2fol BNF datasets/len_1/072.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/072.ltlf'                   	1	1
-datasets/len_1/073.ltlf         	'./ltlf2fol BNF datasets/len_1/073.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/073.ltlf'                   	1	1
-datasets/len_1/074.ltlf         	'./ltlf2fol BNF datasets/len_1/074.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/074.ltlf'                   	259	258
-datasets/len_1/075.ltlf         	'./ltlf2fol BNF datasets/len_1/075.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/075.ltlf'                   	68	4
-datasets/len_1/076.ltlf         	'./ltlf2fol BNF datasets/len_1/076.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/076.ltlf'                   	3	6
-datasets/len_1/077.ltlf         	'./ltlf2fol BNF datasets/len_1/077.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/077.ltlf'                   	1	1
-datasets/len_1/078.ltlf         	'./ltlf2fol BNF datasets/len_1/078.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/078.ltlf'                   	515	1
-datasets/len_1/079.ltlf         	'./ltlf2fol BNF datasets/len_1/079.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/079.ltlf'                   	3	6
-datasets/len_1/080.ltlf         	'./ltlf2fol BNF datasets/len_1/080.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/080.ltlf'                   	1	1
-datasets/len_1/081.ltlf         	'./ltlf2fol BNF datasets/len_1/081.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/081.ltlf'                   	67	66
-datasets/len_1/082.ltlf         	'./ltlf2fol BNF datasets/len_1/082.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/082.ltlf'                   	259	1
-datasets/len_1/083.ltlf         	'./ltlf2fol BNF datasets/len_1/083.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/083.ltlf'                   	131	1
-datasets/len_1/084.ltlf         	'./ltlf2fol BNF datasets/len_1/084.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/084.ltlf'                   	67	66
-datasets/len_1/085.ltlf         	'./ltlf2fol BNF datasets/len_1/085.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/085.ltlf'                   	3	7
-datasets/len_1/086.ltlf         	'./ltlf2fol BNF datasets/len_1/086.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/086.ltlf'                   	3	6
-datasets/len_1/087.ltlf         	'./ltlf2fol BNF datasets/len_1/087.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/087.ltlf'                   	1	1
-datasets/len_1/088.ltlf         	'./ltlf2fol BNF datasets/len_1/088.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/088.ltlf'                   	3	6
-datasets/len_1/089.ltlf         	'./ltlf2fol BNF datasets/len_1/089.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/089.ltlf'                   	1	1
-datasets/len_1/090.ltlf         	'./ltlf2fol BNF datasets/len_1/090.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/090.ltlf'                   	36	4
-datasets/len_1/091.ltlf         	'./ltlf2fol BNF datasets/len_1/091.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/091.ltlf'                   	131	1
-datasets/len_1/092.ltlf         	'./ltlf2fol BNF datasets/len_1/092.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/092.ltlf'                   	1	1
-datasets/len_1/093.ltlf         	'./ltlf2fol BNF datasets/len_1/093.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/093.ltlf'                   	3	6
-datasets/len_1/094.ltlf         	'./ltlf2fol BNF datasets/len_1/094.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/094.ltlf'                   	3	6
-datasets/len_1/095.ltlf         	'./ltlf2fol BNF datasets/len_1/095.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/095.ltlf'                   	35	34
-datasets/len_1/096.ltlf         	'./ltlf2fol BNF datasets/len_1/096.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/096.ltlf'                   	1	1
-datasets/len_1/097.ltlf         	'./ltlf2fol BNF datasets/len_1/097.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/097.ltlf'                   	1	1
-datasets/len_1/098.ltlf         	'./ltlf2fol BNF datasets/len_1/098.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/098.ltlf'                   	3	6
-datasets/len_1/099.ltlf         	'./ltlf2fol BNF datasets/len_1/099.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/099.ltlf'                   	3	6
-datasets/len_1/100.ltlf         	'./ltlf2fol BNF datasets/len_1/100.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/100.ltlf'                   	1	1
-datasets/len_1/101.ltlf         	'./ltlf2fol BNF datasets/len_1/101.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/101.ltlf'                   	3	6
-datasets/len_1/102.ltlf         	'./ltlf2fol BNF datasets/len_1/102.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/102.ltlf'                   	3	6
-datasets/len_1/103.ltlf         	'./ltlf2fol BNF datasets/len_1/103.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/103.ltlf'                   	516	4
-datasets/len_1/104.ltlf         	'./ltlf2fol BNF datasets/len_1/104.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/104.ltlf'                   	36	1
-datasets/len_1/105.ltlf         	'./ltlf2fol BNF datasets/len_1/105.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/105.ltlf'                   	3	7
-datasets/len_1/106.ltlf         	'./ltlf2fol BNF datasets/len_1/106.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/106.ltlf'                   	35	1
-datasets/len_1/107.ltlf         	'./ltlf2fol BNF datasets/len_1/107.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/107.ltlf'                   	516	1
-datasets/len_1/108.ltlf         	'./ltlf2fol BNF datasets/len_1/108.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/108.ltlf'                   	3	6
-datasets/len_1/109.ltlf         	'./ltlf2fol BNF datasets/len_1/109.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/109.ltlf'                   	3	6
-datasets/len_1/110.ltlf         	'./ltlf2fol BNF datasets/len_1/110.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/110.ltlf'                   	131	1
-datasets/len_1/111.ltlf         	'./ltlf2fol BNF datasets/len_1/111.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/111.ltlf'                   	35	1
-datasets/len_1/112.ltlf         	'./ltlf2fol BNF datasets/len_1/112.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/112.ltlf'                   	260	1
-datasets/len_1/113.ltlf         	'./ltlf2fol BNF datasets/len_1/113.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/113.ltlf'                   	259	1
-datasets/len_1/114.ltlf         	'./ltlf2fol BNF datasets/len_1/114.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/114.ltlf'                   	515	514
-datasets/len_1/115.ltlf         	'./ltlf2fol BNF datasets/len_1/115.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/115.ltlf'                   	3	7
-datasets/len_1/116.ltlf         	'./ltlf2fol BNF datasets/len_1/116.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/116.ltlf'                   	3	6
-datasets/len_1/117.ltlf         	'./ltlf2fol BNF datasets/len_1/117.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/117.ltlf'                   	36	4
-datasets/len_1/118.ltlf         	'./ltlf2fol BNF datasets/len_1/118.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/118.ltlf'                   	515	1
-datasets/len_1/119.ltlf         	'./ltlf2fol BNF datasets/len_1/119.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/119.ltlf'                   	3	6
-datasets/len_1/120.ltlf         	'./ltlf2fol BNF datasets/len_1/120.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/120.ltlf'                   	516	4
-datasets/len_1/121.ltlf         	'./ltlf2fol BNF datasets/len_1/121.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/121.ltlf'                   	67	1
-datasets/len_1/122.ltlf         	'./ltlf2fol BNF datasets/len_1/122.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/122.ltlf'                   	68	1
-datasets/len_1/123.ltlf         	'./ltlf2fol BNF datasets/len_1/123.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/123.ltlf'                   	1	1
-datasets/len_1/124.ltlf         	'./ltlf2fol BNF datasets/len_1/124.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/124.ltlf'                   	67	1
-datasets/len_1/125.ltlf         	'./ltlf2fol BNF datasets/len_1/125.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/125.ltlf'                   	67	1
-datasets/len_1/126.ltlf         	'./ltlf2fol BNF datasets/len_1/126.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/126.ltlf'                   	3	7
-datasets/len_1/127.ltlf         	'./ltlf2fol BNF datasets/len_1/127.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/127.ltlf'                   	1	1
-datasets/len_1/128.ltlf         	'./ltlf2fol BNF datasets/len_1/128.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/128.ltlf'                   	131	130
-datasets/len_1/129.ltlf         	'./ltlf2fol BNF datasets/len_1/129.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/129.ltlf'                   	67	1
-datasets/len_1/130.ltlf         	'./ltlf2fol BNF datasets/len_1/130.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/130.ltlf'                   	3	6
-datasets/len_1/131.ltlf         	'./ltlf2fol BNF datasets/len_1/131.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/131.ltlf'                   	3	6
-datasets/len_1/132.ltlf         	'./ltlf2fol BNF datasets/len_1/132.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/132.ltlf'                   	131	130
-datasets/len_1/133.ltlf         	'./ltlf2fol BNF datasets/len_1/133.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/133.ltlf'                   	1	1
-datasets/len_1/134.ltlf         	'./ltlf2fol BNF datasets/len_1/134.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/134.ltlf'                   	35	34
-datasets/len_1/135.ltlf         	'./ltlf2fol BNF datasets/len_1/135.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/135.ltlf'                   	3	6
-datasets/len_1/136.ltlf         	'./ltlf2fol BNF datasets/len_1/136.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/136.ltlf'                   	260	4
-datasets/len_1/137.ltlf         	'./ltlf2fol BNF datasets/len_1/137.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/137.ltlf'                   	132	1
-datasets/len_1/138.ltlf         	'./ltlf2fol BNF datasets/len_1/138.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/138.ltlf'                   	259	1
-datasets/len_1/139.ltlf         	'./ltlf2fol BNF datasets/len_1/139.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/139.ltlf'                   	515	1
-datasets/len_1/140.ltlf         	'./ltlf2fol BNF datasets/len_1/140.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/140.ltlf'                   	36	1
-datasets/len_1/141.ltlf         	'./ltlf2fol BNF datasets/len_1/141.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/141.ltlf'                   	67	1
-datasets/len_1/142.ltlf         	'./ltlf2fol BNF datasets/len_1/142.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/142.ltlf'                   	35	34
-datasets/len_1/143.ltlf         	'./ltlf2fol BNF datasets/len_1/143.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/143.ltlf'                   	68	1
-datasets/len_1/144.ltlf         	'./ltlf2fol BNF datasets/len_1/144.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/144.ltlf'                   	67	66
-datasets/len_1/145.ltlf         	'./ltlf2fol BNF datasets/len_1/145.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/145.ltlf'                   	3	6
-datasets/len_1/146.ltlf         	'./ltlf2fol BNF datasets/len_1/146.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/146.ltlf'                   	36	1
-datasets/len_1/147.ltlf         	'./ltlf2fol BNF datasets/len_1/147.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/147.ltlf'                   	3	6
-datasets/len_1/148.ltlf         	'./ltlf2fol BNF datasets/len_1/148.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/148.ltlf'                   	36	4
-datasets/len_1/149.ltlf         	'./ltlf2fol BNF datasets/len_1/149.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/149.ltlf'                   	67	1
-datasets/len_1/150.ltlf         	'./ltlf2fol BNF datasets/len_1/150.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/150.ltlf'                   	68	1
-datasets/len_1/151.ltlf         	'./ltlf2fol BNF datasets/len_1/151.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/151.ltlf'                   	35	1
-datasets/len_1/152.ltlf         	'./ltlf2fol BNF datasets/len_1/152.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/152.ltlf'                   	1	1
-datasets/len_1/153.ltlf         	'./ltlf2fol BNF datasets/len_1/153.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/153.ltlf'                   	1	1
-datasets/len_1/154.ltlf         	'./ltlf2fol BNF datasets/len_1/154.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/154.ltlf'                   	131	1
-datasets/len_1/155.ltlf         	'./ltlf2fol BNF datasets/len_1/155.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/155.ltlf'                   	1	1
-datasets/len_1/156.ltlf         	'./ltlf2fol BNF datasets/len_1/156.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/156.ltlf'                   	259	1
-datasets/len_1/157.ltlf         	'./ltlf2fol BNF datasets/len_1/157.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/157.ltlf'                   	259	1
-datasets/len_1/158.ltlf         	'./ltlf2fol BNF datasets/len_1/158.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/158.ltlf'                   	131	1
-datasets/len_1/159.ltlf         	'./ltlf2fol BNF datasets/len_1/159.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/159.ltlf'                   	131	130
-datasets/len_1/160.ltlf         	'./ltlf2fol BNF datasets/len_1/160.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/160.ltlf'                   	3	6
-datasets/len_1/161.ltlf         	'./ltlf2fol BNF datasets/len_1/161.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/161.ltlf'                   	260	4
-datasets/len_1/162.ltlf         	'./ltlf2fol BNF datasets/len_1/162.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/162.ltlf'                   	3	6
-datasets/len_1/163.ltlf         	'./ltlf2fol BNF datasets/len_1/163.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/163.ltlf'                   	3	6
-datasets/len_1/164.ltlf         	'./ltlf2fol BNF datasets/len_1/164.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/164.ltlf'                   	516	1
-datasets/len_1/165.ltlf         	'./ltlf2fol BNF datasets/len_1/165.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/165.ltlf'                   	36	4
-datasets/len_1/166.ltlf         	'./ltlf2fol BNF datasets/len_1/166.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/166.ltlf'                   	68	4
-datasets/len_1/167.ltlf         	'./ltlf2fol BNF datasets/len_1/167.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/167.ltlf'                   	1	1
-datasets/len_1/168.ltlf         	'./ltlf2fol BNF datasets/len_1/168.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/168.ltlf'                   	3	7
-datasets/len_1/169.ltlf         	'./ltlf2fol BNF datasets/len_1/169.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/169.ltlf'                   	35	1
-datasets/len_1/170.ltlf         	'./ltlf2fol BNF datasets/len_1/170.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/170.ltlf'                   	131	1
-datasets/len_1/171.ltlf         	'./ltlf2fol BNF datasets/len_1/171.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/171.ltlf'                   	36	4
-datasets/len_1/172.ltlf         	'./ltlf2fol BNF datasets/len_1/172.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/172.ltlf'                   	68	4
-datasets/len_1/173.ltlf         	'./ltlf2fol BNF datasets/len_1/173.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/173.ltlf'                   	259	1
-datasets/len_1/174.ltlf         	'./ltlf2fol BNF datasets/len_1/174.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/174.ltlf'                   	3	7
-datasets/len_1/175.ltlf         	'./ltlf2fol BNF datasets/len_1/175.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/175.ltlf'                   	1	1
-datasets/len_1/176.ltlf         	'./ltlf2fol BNF datasets/len_1/176.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/176.ltlf'                   	132	1
-datasets/len_1/177.ltlf         	'./ltlf2fol BNF datasets/len_1/177.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/177.ltlf'                   	35	1
-datasets/len_1/178.ltlf         	'./ltlf2fol BNF datasets/len_1/178.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/178.ltlf'                   	1	1
-datasets/len_1/179.ltlf         	'./ltlf2fol BNF datasets/len_1/179.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/179.ltlf'                   	3	6
-datasets/len_1/180.ltlf         	'./ltlf2fol BNF datasets/len_1/180.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/180.ltlf'                   	36	1
-datasets/len_1/181.ltlf         	'./ltlf2fol BNF datasets/len_1/181.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/181.ltlf'                   	260	4
-datasets/len_1/182.ltlf         	'./ltlf2fol BNF datasets/len_1/182.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/182.ltlf'                   	259	1
-datasets/len_1/183.ltlf         	'./ltlf2fol BNF datasets/len_1/183.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/183.ltlf'                   	3	6
-datasets/len_1/184.ltlf         	'./ltlf2fol BNF datasets/len_1/184.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/184.ltlf'                   	3	6
-datasets/len_1/185.ltlf         	'./ltlf2fol BNF datasets/len_1/185.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/185.ltlf'                   	3	6
-datasets/len_1/186.ltlf         	'./ltlf2fol BNF datasets/len_1/186.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/186.ltlf'                   	259	258
-datasets/len_1/187.ltlf         	'./ltlf2fol BNF datasets/len_1/187.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/187.ltlf'                   	3	7
-datasets/len_1/188.ltlf         	'./ltlf2fol BNF datasets/len_1/188.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/188.ltlf'                   	3	7
-datasets/len_1/189.ltlf         	'./ltlf2fol BNF datasets/len_1/189.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/189.ltlf'                   	3	7
-datasets/len_1/190.ltlf         	'./ltlf2fol BNF datasets/len_1/190.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/190.ltlf'                   	1	1
-datasets/len_1/191.ltlf         	'./ltlf2fol BNF datasets/len_1/191.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/191.ltlf'                   	3	6
-datasets/len_1/192.ltlf         	'./ltlf2fol BNF datasets/len_1/192.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/192.ltlf'                   	35	1
-datasets/len_1/193.ltlf         	'./ltlf2fol BNF datasets/len_1/193.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/193.ltlf'                   	3	7
-datasets/len_1/194.ltlf         	'./ltlf2fol BNF datasets/len_1/194.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/194.ltlf'                   	67	1
-datasets/len_1/195.ltlf         	'./ltlf2fol BNF datasets/len_1/195.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/195.ltlf'                   	132	1
-datasets/len_1/196.ltlf         	'./ltlf2fol BNF datasets/len_1/196.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/196.ltlf'                   	3	6
-datasets/len_1/197.ltlf         	'./ltlf2fol BNF datasets/len_1/197.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/197.ltlf'                   	3	7
-datasets/len_1/198.ltlf         	'./ltlf2fol BNF datasets/len_1/198.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/198.ltlf'                   	259	1
-datasets/len_1/199.ltlf         	'./ltlf2fol BNF datasets/len_1/199.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/199.ltlf'                   	3	6
-datasets/len_1/200.ltlf         	'./ltlf2fol BNF datasets/len_1/200.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_1/200.ltlf'                   	3	7
-datasets/len_2/001.ltlf         	'./ltlf2fol BNF datasets/len_2/001.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/001.ltlf'                   	2067	10
-datasets/len_2/002.ltlf         	'./ltlf2fol BNF datasets/len_2/002.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/002.ltlf'                   	3	14
-datasets/len_2/003.ltlf         	'./ltlf2fol BNF datasets/len_2/003.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/003.ltlf'                   	30	83
-datasets/len_2/004.ltlf         	'./ltlf2fol BNF datasets/len_2/004.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/004.ltlf'                   	1027	1
-datasets/len_2/005.ltlf         	'./ltlf2fol BNF datasets/len_2/005.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/005.ltlf'                   	2051	1
-datasets/len_2/006.ltlf         	'./ltlf2fol BNF datasets/len_2/006.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/006.ltlf'                   	8	6
-datasets/len_2/007.ltlf         	'./ltlf2fol BNF datasets/len_2/007.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/007.ltlf'                   	8	20
-datasets/len_2/008.ltlf         	'./ltlf2fol BNF datasets/len_2/008.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/008.ltlf'                   	1091	1
-datasets/len_2/009.ltlf         	'./ltlf2fol BNF datasets/len_2/009.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/009.ltlf'                   	259	1
-datasets/len_2/010.ltlf         	'./ltlf2fol BNF datasets/len_2/010.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/010.ltlf'                   	1	1
-datasets/len_2/011.ltlf         	'./ltlf2fol BNF datasets/len_2/011.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/011.ltlf'                   	5	10
-datasets/len_2/012.ltlf         	'./ltlf2fol BNF datasets/len_2/012.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/012.ltlf'                   	67	1
-datasets/len_2/013.ltlf         	'./ltlf2fol BNF datasets/len_2/013.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/013.ltlf'                   	36	1
-datasets/len_2/014.ltlf         	'./ltlf2fol BNF datasets/len_2/014.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/014.ltlf'                   	35	1
-datasets/len_2/015.ltlf         	'./ltlf2fol BNF datasets/len_2/015.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/015.ltlf'                   	8	6
-datasets/len_2/016.ltlf         	'./ltlf2fol BNF datasets/len_2/016.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/016.ltlf'                   	1	1
-datasets/len_2/017.ltlf         	'./ltlf2fol BNF datasets/len_2/017.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/017.ltlf'                   	643	642
-datasets/len_2/018.ltlf         	'./ltlf2fol BNF datasets/len_2/018.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/018.ltlf'                   	1	1
-datasets/len_2/019.ltlf         	'./ltlf2fol BNF datasets/len_2/019.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/019.ltlf'                   	2051	1
-datasets/len_2/020.ltlf         	'./ltlf2fol BNF datasets/len_2/020.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/020.ltlf'                   	1	1
-datasets/len_2/021.ltlf         	'./ltlf2fol BNF datasets/len_2/021.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/021.ltlf'                   	68	1
-datasets/len_2/022.ltlf         	'./ltlf2fol BNF datasets/len_2/022.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/022.ltlf'                   	131	1
-datasets/len_2/023.ltlf         	'./ltlf2fol BNF datasets/len_2/023.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/023.ltlf'                   	5	8
-datasets/len_2/024.ltlf         	'./ltlf2fol BNF datasets/len_2/024.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/024.ltlf'                   	1	1
-datasets/len_2/025.ltlf         	'./ltlf2fol BNF datasets/len_2/025.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/025.ltlf'                   	2051	1
-datasets/len_2/026.ltlf         	'./ltlf2fol BNF datasets/len_2/026.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/026.ltlf'                   	1	1
-datasets/len_2/027.ltlf         	'./ltlf2fol BNF datasets/len_2/027.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/027.ltlf'                   	35	34
-datasets/len_2/028.ltlf         	'./ltlf2fol BNF datasets/len_2/028.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/028.ltlf'                   	259	1
-datasets/len_2/029.ltlf         	'./ltlf2fol BNF datasets/len_2/029.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/029.ltlf'                   	1028	1
-datasets/len_2/030.ltlf         	'./ltlf2fol BNF datasets/len_2/030.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/030.ltlf'                   	656	15
-datasets/len_2/031.ltlf         	'./ltlf2fol BNF datasets/len_2/031.ltlf && mona -u tmp.mona'      	'./bin/lisa -exp -ltlf datasets/len_2/031.ltlf'                   	1	1
+datasets/ex_lisa/cc.ltlf        	./ltlf2fol BNF datasets/ex_lisa/cc.ltlf > tmp.mona && mona -u tmp.mona          	./bin/lisa -exp -ltlf datasets/ex_lisa/cc.ltlf                	7	1
+datasets/ex_lisa/counter_1.ltlf 	./ltlf2fol BNF datasets/ex_lisa/counter_1.ltlf > tmp.mona && mona -u tmp.mona   	./bin/lisa -exp -ltlf datasets/ex_lisa/counter_1.ltlf         	7	1
+datasets/ex_lisa/counter_2.ltlf 	./ltlf2fol BNF datasets/ex_lisa/counter_2.ltlf > tmp.mona && mona -u tmp.mona   	./bin/lisa -exp -ltlf datasets/ex_lisa/counter_2.ltlf         	13	1
+datasets/ex_lisa/counters_1.ltlf	./ltlf2fol BNF datasets/ex_lisa/counters_1.ltlf > tmp.mona && mona -u tmp.mona  	./bin/lisa -exp -ltlf datasets/ex_lisa/counters_1.ltlf        	13	1
+datasets/ex_lisa/counters_2.ltlf	./ltlf2fol BNF datasets/ex_lisa/counters_2.ltlf > tmp.mona && mona -u tmp.mona  	./bin/lisa -exp -ltlf datasets/ex_lisa/counters_2.ltlf        	47	1
+datasets/ex_lisa/ltlf3377.ltlf  	./ltlf2fol BNF datasets/ex_lisa/ltlf3377.ltlf > tmp.mona && mona -u tmp.mona    	./bin/lisa -exp -ltlf datasets/ex_lisa/ltlf3377.ltlf          	3377	3377
+datasets/ex_lisa/req.ltlf       	./ltlf2fol BNF datasets/ex_lisa/req.ltlf > tmp.mona && mona -u tmp.mona         	./bin/lisa -exp -ltlf datasets/ex_lisa/req.ltlf               	17	17
+datasets/ex_lisa/req1.ltlf      	./ltlf2fol BNF datasets/ex_lisa/req1.ltlf > tmp.mona && mona -u tmp.mona        	./bin/lisa -exp -ltlf datasets/ex_lisa/req1.ltlf              	8	6
+datasets/ex_lisa/testcase.ltlf  	./ltlf2fol BNF datasets/ex_lisa/testcase.ltlf > tmp.mona && mona -u tmp.mona    	./bin/lisa -exp -ltlf datasets/ex_lisa/testcase.ltlf          	6	5
+datasets/len_1/001.ltlf         	./ltlf2fol BNF datasets/len_1/001.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/001.ltlf                 	3	6
+datasets/len_1/002.ltlf         	./ltlf2fol BNF datasets/len_1/002.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/002.ltlf                 	35	1
+datasets/len_1/003.ltlf         	./ltlf2fol BNF datasets/len_1/003.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/003.ltlf                 	1	1
+datasets/len_1/004.ltlf         	./ltlf2fol BNF datasets/len_1/004.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/004.ltlf                 	3	6
+datasets/len_1/005.ltlf         	./ltlf2fol BNF datasets/len_1/005.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/005.ltlf                 	516	1
+datasets/len_1/006.ltlf         	./ltlf2fol BNF datasets/len_1/006.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/006.ltlf                 	3	6
+datasets/len_1/007.ltlf         	./ltlf2fol BNF datasets/len_1/007.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/007.ltlf                 	515	1
+datasets/len_1/008.ltlf         	./ltlf2fol BNF datasets/len_1/008.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/008.ltlf                 	67	66
+datasets/len_1/009.ltlf         	./ltlf2fol BNF datasets/len_1/009.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/009.ltlf                 	3	6
+datasets/len_1/010.ltlf         	./ltlf2fol BNF datasets/len_1/010.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/010.ltlf                 	3	6
+datasets/len_1/011.ltlf         	./ltlf2fol BNF datasets/len_1/011.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/011.ltlf                 	132	1
+datasets/len_1/012.ltlf         	./ltlf2fol BNF datasets/len_1/012.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/012.ltlf                 	3	6
+datasets/len_1/013.ltlf         	./ltlf2fol BNF datasets/len_1/013.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/013.ltlf                 	35	1
+datasets/len_1/014.ltlf         	./ltlf2fol BNF datasets/len_1/014.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/014.ltlf                 	131	1
+datasets/len_1/015.ltlf         	./ltlf2fol BNF datasets/len_1/015.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/015.ltlf                 	68	1
+datasets/len_1/016.ltlf         	./ltlf2fol BNF datasets/len_1/016.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/016.ltlf                 	1	1
+datasets/len_1/017.ltlf         	./ltlf2fol BNF datasets/len_1/017.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/017.ltlf                 	67	1
+datasets/len_1/018.ltlf         	./ltlf2fol BNF datasets/len_1/018.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/018.ltlf                 	259	1
+datasets/len_1/019.ltlf         	./ltlf2fol BNF datasets/len_1/019.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/019.ltlf                 	35	1
+datasets/len_1/020.ltlf         	./ltlf2fol BNF datasets/len_1/020.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/020.ltlf                 	132	1
+datasets/len_1/021.ltlf         	./ltlf2fol BNF datasets/len_1/021.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/021.ltlf                 	515	1
+datasets/len_1/022.ltlf         	./ltlf2fol BNF datasets/len_1/022.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/022.ltlf                 	35	34
+datasets/len_1/023.ltlf         	./ltlf2fol BNF datasets/len_1/023.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/023.ltlf                 	1	1
+datasets/len_1/024.ltlf         	./ltlf2fol BNF datasets/len_1/024.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/024.ltlf                 	68	4
+datasets/len_1/025.ltlf         	./ltlf2fol BNF datasets/len_1/025.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/025.ltlf                 	260	4
+datasets/len_1/026.ltlf         	./ltlf2fol BNF datasets/len_1/026.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/026.ltlf                 	3	7
+datasets/len_1/027.ltlf         	./ltlf2fol BNF datasets/len_1/027.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/027.ltlf                 	132	4
+datasets/len_1/028.ltlf         	./ltlf2fol BNF datasets/len_1/028.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/028.ltlf                 	35	1
+datasets/len_1/029.ltlf         	./ltlf2fol BNF datasets/len_1/029.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/029.ltlf                 	3	6
+datasets/len_1/030.ltlf         	./ltlf2fol BNF datasets/len_1/030.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/030.ltlf                 	3	6
+datasets/len_1/031.ltlf         	./ltlf2fol BNF datasets/len_1/031.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/031.ltlf                 	259	1
+datasets/len_1/032.ltlf         	./ltlf2fol BNF datasets/len_1/032.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/032.ltlf                 	3	6
+datasets/len_1/033.ltlf         	./ltlf2fol BNF datasets/len_1/033.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/033.ltlf                 	3	7
+datasets/len_1/034.ltlf         	./ltlf2fol BNF datasets/len_1/034.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/034.ltlf                 	36	1
+datasets/len_1/035.ltlf         	./ltlf2fol BNF datasets/len_1/035.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/035.ltlf                 	3	6
+datasets/len_1/036.ltlf         	./ltlf2fol BNF datasets/len_1/036.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/036.ltlf                 	515	1
+datasets/len_1/037.ltlf         	./ltlf2fol BNF datasets/len_1/037.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/037.ltlf                 	3	6
+datasets/len_1/038.ltlf         	./ltlf2fol BNF datasets/len_1/038.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/038.ltlf                 	3	7
+datasets/len_1/039.ltlf         	./ltlf2fol BNF datasets/len_1/039.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/039.ltlf                 	1	1
+datasets/len_1/040.ltlf         	./ltlf2fol BNF datasets/len_1/040.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/040.ltlf                 	3	6
+datasets/len_1/041.ltlf         	./ltlf2fol BNF datasets/len_1/041.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/041.ltlf                 	132	4
+datasets/len_1/042.ltlf         	./ltlf2fol BNF datasets/len_1/042.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/042.ltlf                 	131	1
+datasets/len_1/043.ltlf         	./ltlf2fol BNF datasets/len_1/043.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/043.ltlf                 	131	1
+datasets/len_1/044.ltlf         	./ltlf2fol BNF datasets/len_1/044.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/044.ltlf                 	3	7
+datasets/len_1/045.ltlf         	./ltlf2fol BNF datasets/len_1/045.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/045.ltlf                 	259	258
+datasets/len_1/046.ltlf         	./ltlf2fol BNF datasets/len_1/046.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/046.ltlf                 	3	6
+datasets/len_1/047.ltlf         	./ltlf2fol BNF datasets/len_1/047.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/047.ltlf                 	259	1
+datasets/len_1/048.ltlf         	./ltlf2fol BNF datasets/len_1/048.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/048.ltlf                 	3	6
+datasets/len_1/049.ltlf         	./ltlf2fol BNF datasets/len_1/049.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/049.ltlf                 	68	4
+datasets/len_1/050.ltlf         	./ltlf2fol BNF datasets/len_1/050.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/050.ltlf                 	3	6
+datasets/len_1/051.ltlf         	./ltlf2fol BNF datasets/len_1/051.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/051.ltlf                 	515	1
+datasets/len_1/052.ltlf         	./ltlf2fol BNF datasets/len_1/052.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/052.ltlf                 	259	258
+datasets/len_1/053.ltlf         	./ltlf2fol BNF datasets/len_1/053.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/053.ltlf                 	67	1
+datasets/len_1/054.ltlf         	./ltlf2fol BNF datasets/len_1/054.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/054.ltlf                 	68	4
+datasets/len_1/055.ltlf         	./ltlf2fol BNF datasets/len_1/055.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/055.ltlf                 	1	1
+datasets/len_1/056.ltlf         	./ltlf2fol BNF datasets/len_1/056.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/056.ltlf                 	36	1
+datasets/len_1/057.ltlf         	./ltlf2fol BNF datasets/len_1/057.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/057.ltlf                 	259	1
+datasets/len_1/058.ltlf         	./ltlf2fol BNF datasets/len_1/058.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/058.ltlf                 	67	1
+datasets/len_1/059.ltlf         	./ltlf2fol BNF datasets/len_1/059.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/059.ltlf                 	3	6
+datasets/len_1/060.ltlf         	./ltlf2fol BNF datasets/len_1/060.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/060.ltlf                 	3	6
+datasets/len_1/061.ltlf         	./ltlf2fol BNF datasets/len_1/061.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/061.ltlf                 	3	6
+datasets/len_1/062.ltlf         	./ltlf2fol BNF datasets/len_1/062.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/062.ltlf                 	1	1
+datasets/len_1/063.ltlf         	./ltlf2fol BNF datasets/len_1/063.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/063.ltlf                 	1	1
+datasets/len_1/064.ltlf         	./ltlf2fol BNF datasets/len_1/064.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/064.ltlf                 	3	6
+datasets/len_1/065.ltlf         	./ltlf2fol BNF datasets/len_1/065.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/065.ltlf                 	516	4
+datasets/len_1/066.ltlf         	./ltlf2fol BNF datasets/len_1/066.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/066.ltlf                 	3	6
+datasets/len_1/067.ltlf         	./ltlf2fol BNF datasets/len_1/067.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/067.ltlf                 	515	1
+datasets/len_1/068.ltlf         	./ltlf2fol BNF datasets/len_1/068.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/068.ltlf                 	260	1
+datasets/len_1/069.ltlf         	./ltlf2fol BNF datasets/len_1/069.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/069.ltlf                 	3	6
+datasets/len_1/070.ltlf         	./ltlf2fol BNF datasets/len_1/070.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/070.ltlf                 	515	1
+datasets/len_1/071.ltlf         	./ltlf2fol BNF datasets/len_1/071.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/071.ltlf                 	3	6
+datasets/len_1/072.ltlf         	./ltlf2fol BNF datasets/len_1/072.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/072.ltlf                 	1	1
+datasets/len_1/073.ltlf         	./ltlf2fol BNF datasets/len_1/073.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/073.ltlf                 	1	1
+datasets/len_1/074.ltlf         	./ltlf2fol BNF datasets/len_1/074.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/074.ltlf                 	259	258
+datasets/len_1/075.ltlf         	./ltlf2fol BNF datasets/len_1/075.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/075.ltlf                 	68	4
+datasets/len_1/076.ltlf         	./ltlf2fol BNF datasets/len_1/076.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/076.ltlf                 	3	6
+datasets/len_1/077.ltlf         	./ltlf2fol BNF datasets/len_1/077.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/077.ltlf                 	1	1
+datasets/len_1/078.ltlf         	./ltlf2fol BNF datasets/len_1/078.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/078.ltlf                 	515	1
+datasets/len_1/079.ltlf         	./ltlf2fol BNF datasets/len_1/079.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/079.ltlf                 	3	6
+datasets/len_1/080.ltlf         	./ltlf2fol BNF datasets/len_1/080.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/080.ltlf                 	1	1
+datasets/len_1/081.ltlf         	./ltlf2fol BNF datasets/len_1/081.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/081.ltlf                 	67	66
+datasets/len_1/082.ltlf         	./ltlf2fol BNF datasets/len_1/082.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/082.ltlf                 	259	1
+datasets/len_1/083.ltlf         	./ltlf2fol BNF datasets/len_1/083.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/083.ltlf                 	131	1
+datasets/len_1/084.ltlf         	./ltlf2fol BNF datasets/len_1/084.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/084.ltlf                 	67	66
+datasets/len_1/085.ltlf         	./ltlf2fol BNF datasets/len_1/085.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/085.ltlf                 	3	7
+datasets/len_1/086.ltlf         	./ltlf2fol BNF datasets/len_1/086.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/086.ltlf                 	3	6
+datasets/len_1/087.ltlf         	./ltlf2fol BNF datasets/len_1/087.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/087.ltlf                 	1	1
+datasets/len_1/088.ltlf         	./ltlf2fol BNF datasets/len_1/088.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/088.ltlf                 	3	6
+datasets/len_1/089.ltlf         	./ltlf2fol BNF datasets/len_1/089.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/089.ltlf                 	1	1
+datasets/len_1/090.ltlf         	./ltlf2fol BNF datasets/len_1/090.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/090.ltlf                 	36	4
+datasets/len_1/091.ltlf         	./ltlf2fol BNF datasets/len_1/091.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/091.ltlf                 	131	1
+datasets/len_1/092.ltlf         	./ltlf2fol BNF datasets/len_1/092.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/092.ltlf                 	1	1
+datasets/len_1/093.ltlf         	./ltlf2fol BNF datasets/len_1/093.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/093.ltlf                 	3	6
+datasets/len_1/094.ltlf         	./ltlf2fol BNF datasets/len_1/094.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/094.ltlf                 	3	6
+datasets/len_1/095.ltlf         	./ltlf2fol BNF datasets/len_1/095.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/095.ltlf                 	35	34
+datasets/len_1/096.ltlf         	./ltlf2fol BNF datasets/len_1/096.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/096.ltlf                 	1	1
+datasets/len_1/097.ltlf         	./ltlf2fol BNF datasets/len_1/097.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/097.ltlf                 	1	1
+datasets/len_1/098.ltlf         	./ltlf2fol BNF datasets/len_1/098.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/098.ltlf                 	3	6
+datasets/len_1/099.ltlf         	./ltlf2fol BNF datasets/len_1/099.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/099.ltlf                 	3	6
+datasets/len_1/100.ltlf         	./ltlf2fol BNF datasets/len_1/100.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/100.ltlf                 	1	1
+datasets/len_1/101.ltlf         	./ltlf2fol BNF datasets/len_1/101.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/101.ltlf                 	3	6
+datasets/len_1/102.ltlf         	./ltlf2fol BNF datasets/len_1/102.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/102.ltlf                 	3	6
+datasets/len_1/103.ltlf         	./ltlf2fol BNF datasets/len_1/103.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/103.ltlf                 	516	4
+datasets/len_1/104.ltlf         	./ltlf2fol BNF datasets/len_1/104.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/104.ltlf                 	36	1
+datasets/len_1/105.ltlf         	./ltlf2fol BNF datasets/len_1/105.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/105.ltlf                 	3	7
+datasets/len_1/106.ltlf         	./ltlf2fol BNF datasets/len_1/106.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/106.ltlf                 	35	1
+datasets/len_1/107.ltlf         	./ltlf2fol BNF datasets/len_1/107.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/107.ltlf                 	516	1
+datasets/len_1/108.ltlf         	./ltlf2fol BNF datasets/len_1/108.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/108.ltlf                 	3	6
+datasets/len_1/109.ltlf         	./ltlf2fol BNF datasets/len_1/109.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/109.ltlf                 	3	6
+datasets/len_1/110.ltlf         	./ltlf2fol BNF datasets/len_1/110.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/110.ltlf                 	131	1
+datasets/len_1/111.ltlf         	./ltlf2fol BNF datasets/len_1/111.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/111.ltlf                 	35	1
+datasets/len_1/112.ltlf         	./ltlf2fol BNF datasets/len_1/112.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/112.ltlf                 	260	1
+datasets/len_1/113.ltlf         	./ltlf2fol BNF datasets/len_1/113.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/113.ltlf                 	259	1
+datasets/len_1/114.ltlf         	./ltlf2fol BNF datasets/len_1/114.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/114.ltlf                 	515	514
+datasets/len_1/115.ltlf         	./ltlf2fol BNF datasets/len_1/115.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/115.ltlf                 	3	7
+datasets/len_1/116.ltlf         	./ltlf2fol BNF datasets/len_1/116.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/116.ltlf                 	3	6
+datasets/len_1/117.ltlf         	./ltlf2fol BNF datasets/len_1/117.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/117.ltlf                 	36	4
+datasets/len_1/118.ltlf         	./ltlf2fol BNF datasets/len_1/118.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/118.ltlf                 	515	1
+datasets/len_1/119.ltlf         	./ltlf2fol BNF datasets/len_1/119.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/119.ltlf                 	3	6
+datasets/len_1/120.ltlf         	./ltlf2fol BNF datasets/len_1/120.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/120.ltlf                 	516	4
+datasets/len_1/121.ltlf         	./ltlf2fol BNF datasets/len_1/121.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/121.ltlf                 	67	1
+datasets/len_1/122.ltlf         	./ltlf2fol BNF datasets/len_1/122.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/122.ltlf                 	68	1
+datasets/len_1/123.ltlf         	./ltlf2fol BNF datasets/len_1/123.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/123.ltlf                 	1	1
+datasets/len_1/124.ltlf         	./ltlf2fol BNF datasets/len_1/124.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/124.ltlf                 	67	1
+datasets/len_1/125.ltlf         	./ltlf2fol BNF datasets/len_1/125.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/125.ltlf                 	67	1
+datasets/len_1/126.ltlf         	./ltlf2fol BNF datasets/len_1/126.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/126.ltlf                 	3	7
+datasets/len_1/127.ltlf         	./ltlf2fol BNF datasets/len_1/127.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/127.ltlf                 	1	1
+datasets/len_1/128.ltlf         	./ltlf2fol BNF datasets/len_1/128.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/128.ltlf                 	131	130
+datasets/len_1/129.ltlf         	./ltlf2fol BNF datasets/len_1/129.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/129.ltlf                 	67	1
+datasets/len_1/130.ltlf         	./ltlf2fol BNF datasets/len_1/130.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/130.ltlf                 	3	6
+datasets/len_1/131.ltlf         	./ltlf2fol BNF datasets/len_1/131.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/131.ltlf                 	3	6
+datasets/len_1/132.ltlf         	./ltlf2fol BNF datasets/len_1/132.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/132.ltlf                 	131	130
+datasets/len_1/133.ltlf         	./ltlf2fol BNF datasets/len_1/133.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/133.ltlf                 	1	1
+datasets/len_1/134.ltlf         	./ltlf2fol BNF datasets/len_1/134.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/134.ltlf                 	35	34
+datasets/len_1/135.ltlf         	./ltlf2fol BNF datasets/len_1/135.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/135.ltlf                 	3	6
+datasets/len_1/136.ltlf         	./ltlf2fol BNF datasets/len_1/136.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/136.ltlf                 	260	4
+datasets/len_1/137.ltlf         	./ltlf2fol BNF datasets/len_1/137.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/137.ltlf                 	132	1
+datasets/len_1/138.ltlf         	./ltlf2fol BNF datasets/len_1/138.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/138.ltlf                 	259	1
+datasets/len_1/139.ltlf         	./ltlf2fol BNF datasets/len_1/139.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/139.ltlf                 	515	1
+datasets/len_1/140.ltlf         	./ltlf2fol BNF datasets/len_1/140.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/140.ltlf                 	36	1
+datasets/len_1/141.ltlf         	./ltlf2fol BNF datasets/len_1/141.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/141.ltlf                 	67	1
+datasets/len_1/142.ltlf         	./ltlf2fol BNF datasets/len_1/142.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/142.ltlf                 	35	34
+datasets/len_1/143.ltlf         	./ltlf2fol BNF datasets/len_1/143.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/143.ltlf                 	68	1
+datasets/len_1/144.ltlf         	./ltlf2fol BNF datasets/len_1/144.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/144.ltlf                 	67	66
+datasets/len_1/145.ltlf         	./ltlf2fol BNF datasets/len_1/145.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/145.ltlf                 	3	6
+datasets/len_1/146.ltlf         	./ltlf2fol BNF datasets/len_1/146.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/146.ltlf                 	36	1
+datasets/len_1/147.ltlf         	./ltlf2fol BNF datasets/len_1/147.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/147.ltlf                 	3	6
+datasets/len_1/148.ltlf         	./ltlf2fol BNF datasets/len_1/148.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/148.ltlf                 	36	4
+datasets/len_1/149.ltlf         	./ltlf2fol BNF datasets/len_1/149.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/149.ltlf                 	67	1
+datasets/len_1/150.ltlf         	./ltlf2fol BNF datasets/len_1/150.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/150.ltlf                 	68	1
+datasets/len_1/151.ltlf         	./ltlf2fol BNF datasets/len_1/151.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/151.ltlf                 	35	1
+datasets/len_1/152.ltlf         	./ltlf2fol BNF datasets/len_1/152.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/152.ltlf                 	1	1
+datasets/len_1/153.ltlf         	./ltlf2fol BNF datasets/len_1/153.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/153.ltlf                 	1	1
+datasets/len_1/154.ltlf         	./ltlf2fol BNF datasets/len_1/154.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/154.ltlf                 	131	1
+datasets/len_1/155.ltlf         	./ltlf2fol BNF datasets/len_1/155.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/155.ltlf                 	1	1
+datasets/len_1/156.ltlf         	./ltlf2fol BNF datasets/len_1/156.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/156.ltlf                 	259	1
+datasets/len_1/157.ltlf         	./ltlf2fol BNF datasets/len_1/157.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/157.ltlf                 	259	1
+datasets/len_1/158.ltlf         	./ltlf2fol BNF datasets/len_1/158.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/158.ltlf                 	131	1
+datasets/len_1/159.ltlf         	./ltlf2fol BNF datasets/len_1/159.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/159.ltlf                 	131	130
+datasets/len_1/160.ltlf         	./ltlf2fol BNF datasets/len_1/160.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/160.ltlf                 	3	6
+datasets/len_1/161.ltlf         	./ltlf2fol BNF datasets/len_1/161.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/161.ltlf                 	260	4
+datasets/len_1/162.ltlf         	./ltlf2fol BNF datasets/len_1/162.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/162.ltlf                 	3	6
+datasets/len_1/163.ltlf         	./ltlf2fol BNF datasets/len_1/163.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/163.ltlf                 	3	6
+datasets/len_1/164.ltlf         	./ltlf2fol BNF datasets/len_1/164.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/164.ltlf                 	516	1
+datasets/len_1/165.ltlf         	./ltlf2fol BNF datasets/len_1/165.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/165.ltlf                 	36	4
+datasets/len_1/166.ltlf         	./ltlf2fol BNF datasets/len_1/166.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/166.ltlf                 	68	4
+datasets/len_1/167.ltlf         	./ltlf2fol BNF datasets/len_1/167.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/167.ltlf                 	1	1
+datasets/len_1/168.ltlf         	./ltlf2fol BNF datasets/len_1/168.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/168.ltlf                 	3	7
+datasets/len_1/169.ltlf         	./ltlf2fol BNF datasets/len_1/169.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/169.ltlf                 	35	1
+datasets/len_1/170.ltlf         	./ltlf2fol BNF datasets/len_1/170.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/170.ltlf                 	131	1
+datasets/len_1/171.ltlf         	./ltlf2fol BNF datasets/len_1/171.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/171.ltlf                 	36	4
+datasets/len_1/172.ltlf         	./ltlf2fol BNF datasets/len_1/172.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/172.ltlf                 	68	4
+datasets/len_1/173.ltlf         	./ltlf2fol BNF datasets/len_1/173.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/173.ltlf                 	259	1
+datasets/len_1/174.ltlf         	./ltlf2fol BNF datasets/len_1/174.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/174.ltlf                 	3	7
+datasets/len_1/175.ltlf         	./ltlf2fol BNF datasets/len_1/175.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/175.ltlf                 	1	1
+datasets/len_1/176.ltlf         	./ltlf2fol BNF datasets/len_1/176.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/176.ltlf                 	132	1
+datasets/len_1/177.ltlf         	./ltlf2fol BNF datasets/len_1/177.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/177.ltlf                 	35	1
+datasets/len_1/178.ltlf         	./ltlf2fol BNF datasets/len_1/178.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/178.ltlf                 	1	1
+datasets/len_1/179.ltlf         	./ltlf2fol BNF datasets/len_1/179.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/179.ltlf                 	3	6
+datasets/len_1/180.ltlf         	./ltlf2fol BNF datasets/len_1/180.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/180.ltlf                 	36	1
+datasets/len_1/181.ltlf         	./ltlf2fol BNF datasets/len_1/181.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/181.ltlf                 	260	4
+datasets/len_1/182.ltlf         	./ltlf2fol BNF datasets/len_1/182.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/182.ltlf                 	259	1
+datasets/len_1/183.ltlf         	./ltlf2fol BNF datasets/len_1/183.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/183.ltlf                 	3	6
+datasets/len_1/184.ltlf         	./ltlf2fol BNF datasets/len_1/184.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/184.ltlf                 	3	6
+datasets/len_1/185.ltlf         	./ltlf2fol BNF datasets/len_1/185.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/185.ltlf                 	3	6
+datasets/len_1/186.ltlf         	./ltlf2fol BNF datasets/len_1/186.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/186.ltlf                 	259	258
+datasets/len_1/187.ltlf         	./ltlf2fol BNF datasets/len_1/187.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/187.ltlf                 	3	7
+datasets/len_1/188.ltlf         	./ltlf2fol BNF datasets/len_1/188.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/188.ltlf                 	3	7
+datasets/len_1/189.ltlf         	./ltlf2fol BNF datasets/len_1/189.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/189.ltlf                 	3	7
+datasets/len_1/190.ltlf         	./ltlf2fol BNF datasets/len_1/190.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/190.ltlf                 	1	1
+datasets/len_1/191.ltlf         	./ltlf2fol BNF datasets/len_1/191.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/191.ltlf                 	3	6
+datasets/len_1/192.ltlf         	./ltlf2fol BNF datasets/len_1/192.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/192.ltlf                 	35	1
+datasets/len_1/193.ltlf         	./ltlf2fol BNF datasets/len_1/193.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/193.ltlf                 	3	7
+datasets/len_1/194.ltlf         	./ltlf2fol BNF datasets/len_1/194.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/194.ltlf                 	67	1
+datasets/len_1/195.ltlf         	./ltlf2fol BNF datasets/len_1/195.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/195.ltlf                 	132	1
+datasets/len_1/196.ltlf         	./ltlf2fol BNF datasets/len_1/196.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/196.ltlf                 	3	6
+datasets/len_1/197.ltlf         	./ltlf2fol BNF datasets/len_1/197.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/197.ltlf                 	3	7
+datasets/len_1/198.ltlf         	./ltlf2fol BNF datasets/len_1/198.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/198.ltlf                 	259	1
+datasets/len_1/199.ltlf         	./ltlf2fol BNF datasets/len_1/199.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/199.ltlf                 	3	6
+datasets/len_1/200.ltlf         	./ltlf2fol BNF datasets/len_1/200.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_1/200.ltlf                 	3	7
+datasets/len_2/001.ltlf         	./ltlf2fol BNF datasets/len_2/001.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/001.ltlf                 	2067	10
+datasets/len_2/002.ltlf         	./ltlf2fol BNF datasets/len_2/002.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/002.ltlf                 	3	14
+datasets/len_2/003.ltlf         	./ltlf2fol BNF datasets/len_2/003.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/003.ltlf                 	30	83
+datasets/len_2/004.ltlf         	./ltlf2fol BNF datasets/len_2/004.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/004.ltlf                 	1027	1
+datasets/len_2/005.ltlf         	./ltlf2fol BNF datasets/len_2/005.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/005.ltlf                 	2051	1
+datasets/len_2/006.ltlf         	./ltlf2fol BNF datasets/len_2/006.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/006.ltlf                 	8	6
+datasets/len_2/007.ltlf         	./ltlf2fol BNF datasets/len_2/007.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/007.ltlf                 	8	20
+datasets/len_2/008.ltlf         	./ltlf2fol BNF datasets/len_2/008.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/008.ltlf                 	1091	1
+datasets/len_2/009.ltlf         	./ltlf2fol BNF datasets/len_2/009.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/009.ltlf                 	259	1
+datasets/len_2/010.ltlf         	./ltlf2fol BNF datasets/len_2/010.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/010.ltlf                 	1	1
+datasets/len_2/011.ltlf         	./ltlf2fol BNF datasets/len_2/011.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/011.ltlf                 	5	10
+datasets/len_2/012.ltlf         	./ltlf2fol BNF datasets/len_2/012.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/012.ltlf                 	67	1
+datasets/len_2/013.ltlf         	./ltlf2fol BNF datasets/len_2/013.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/013.ltlf                 	36	1
+datasets/len_2/014.ltlf         	./ltlf2fol BNF datasets/len_2/014.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/014.ltlf                 	35	1
+datasets/len_2/015.ltlf         	./ltlf2fol BNF datasets/len_2/015.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/015.ltlf                 	8	6
+datasets/len_2/016.ltlf         	./ltlf2fol BNF datasets/len_2/016.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/016.ltlf                 	1	1
+datasets/len_2/017.ltlf         	./ltlf2fol BNF datasets/len_2/017.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/017.ltlf                 	643	642
+datasets/len_2/018.ltlf         	./ltlf2fol BNF datasets/len_2/018.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/018.ltlf                 	1	1
+datasets/len_2/019.ltlf         	./ltlf2fol BNF datasets/len_2/019.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/019.ltlf                 	2051	1
+datasets/len_2/020.ltlf         	./ltlf2fol BNF datasets/len_2/020.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/020.ltlf                 	1	1
+datasets/len_2/021.ltlf         	./ltlf2fol BNF datasets/len_2/021.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/021.ltlf                 	68	1
+datasets/len_2/022.ltlf         	./ltlf2fol BNF datasets/len_2/022.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/022.ltlf                 	131	1
+datasets/len_2/023.ltlf         	./ltlf2fol BNF datasets/len_2/023.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/023.ltlf                 	5	8
+datasets/len_2/024.ltlf         	./ltlf2fol BNF datasets/len_2/024.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/024.ltlf                 	1	1
+datasets/len_2/025.ltlf         	./ltlf2fol BNF datasets/len_2/025.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/025.ltlf                 	2051	1
+datasets/len_2/026.ltlf         	./ltlf2fol BNF datasets/len_2/026.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/026.ltlf                 	1	1
+datasets/len_2/027.ltlf         	./ltlf2fol BNF datasets/len_2/027.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/027.ltlf                 	35	34
+datasets/len_2/028.ltlf         	./ltlf2fol BNF datasets/len_2/028.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/028.ltlf                 	259	1
+datasets/len_2/029.ltlf         	./ltlf2fol BNF datasets/len_2/029.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/029.ltlf                 	1028	1
+datasets/len_2/030.ltlf         	./ltlf2fol BNF datasets/len_2/030.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/030.ltlf                 	656	15
+datasets/len_2/031.ltlf         	./ltlf2fol BNF datasets/len_2/031.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/031.ltlf                 	1	1
+datasets/len_2/032.ltlf         	./ltlf2fol BNF datasets/len_2/032.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/032.ltlf                 	5	8
+datasets/len_2/033.ltlf         	./ltlf2fol BNF datasets/len_2/033.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/033.ltlf                 	8	20
+datasets/len_2/034.ltlf         	./ltlf2fol BNF datasets/len_2/034.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/034.ltlf                 	1	1
+datasets/len_2/035.ltlf         	./ltlf2fol BNF datasets/len_2/035.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/035.ltlf                 	131	514
+datasets/len_2/036.ltlf         	./ltlf2fol BNF datasets/len_2/036.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/036.ltlf                 	36	1
+datasets/len_2/037.ltlf         	./ltlf2fol BNF datasets/len_2/037.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/037.ltlf                 	13	32
+datasets/len_2/038.ltlf         	./ltlf2fol BNF datasets/len_2/038.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/038.ltlf                 	269	1
+datasets/len_2/039.ltlf         	./ltlf2fol BNF datasets/len_2/039.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/039.ltlf                 	3	11
+datasets/len_2/040.ltlf         	./ltlf2fol BNF datasets/len_2/040.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/040.ltlf                 	3	11
+datasets/len_2/041.ltlf         	./ltlf2fol BNF datasets/len_2/041.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/041.ltlf                 	259	258
+datasets/len_2/042.ltlf         	./ltlf2fol BNF datasets/len_2/042.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/042.ltlf                 	5	10
+datasets/len_2/043.ltlf         	./ltlf2fol BNF datasets/len_2/043.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/043.ltlf                 	20	1
+datasets/len_2/044.ltlf         	./ltlf2fol BNF datasets/len_2/044.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/044.ltlf                 	260	1
+datasets/len_2/045.ltlf         	./ltlf2fol BNF datasets/len_2/045.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/045.ltlf                 	1093	1
+datasets/len_2/046.ltlf         	./ltlf2fol BNF datasets/len_2/046.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/046.ltlf                 	1	1
+datasets/len_2/047.ltlf         	./ltlf2fol BNF datasets/len_2/047.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/047.ltlf                 	131	1
+datasets/len_2/048.ltlf         	./ltlf2fol BNF datasets/len_2/048.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/048.ltlf                 	1	1
+datasets/len_2/049.ltlf         	./ltlf2fol BNF datasets/len_2/049.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/049.ltlf                 	7706	29
+datasets/len_2/050.ltlf         	./ltlf2fol BNF datasets/len_2/050.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/050.ltlf                 	5	13
+datasets/len_2/051.ltlf         	./ltlf2fol BNF datasets/len_2/051.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/051.ltlf                 	132	1
+datasets/len_2/052.ltlf         	./ltlf2fol BNF datasets/len_2/052.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/052.ltlf                 	8	6
+datasets/len_2/053.ltlf         	./ltlf2fol BNF datasets/len_2/053.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/053.ltlf                 	5	11
+datasets/len_2/054.ltlf         	./ltlf2fol BNF datasets/len_2/054.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/054.ltlf                 	51	1
+datasets/len_2/055.ltlf         	./ltlf2fol BNF datasets/len_2/055.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/055.ltlf                 	67	1
+datasets/len_2/056.ltlf         	./ltlf2fol BNF datasets/len_2/056.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/056.ltlf                 	1	1
+datasets/len_2/057.ltlf         	./ltlf2fol BNF datasets/len_2/057.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/057.ltlf                 	8	1
+datasets/len_2/058.ltlf         	./ltlf2fol BNF datasets/len_2/058.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/058.ltlf                 	5635	1
+datasets/len_2/059.ltlf         	./ltlf2fol BNF datasets/len_2/059.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/059.ltlf                 	2566	1
+datasets/len_2/060.ltlf         	./ltlf2fol BNF datasets/len_2/060.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/060.ltlf                 	2318	3
+datasets/len_2/061.ltlf         	./ltlf2fol BNF datasets/len_2/061.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/061.ltlf                 	3	11
+datasets/len_2/062.ltlf         	./ltlf2fol BNF datasets/len_2/062.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/062.ltlf                 	3075	1
+datasets/len_2/063.ltlf         	./ltlf2fol BNF datasets/len_2/063.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/063.ltlf                 	1	1
+datasets/len_2/064.ltlf         	./ltlf2fol BNF datasets/len_2/064.ltlf > tmp.mona && mona -u tmp.mona           	./bin/lisa -exp -ltlf datasets/len_2/064.ltlf                 	1091	1

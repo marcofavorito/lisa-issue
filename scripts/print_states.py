@@ -12,7 +12,8 @@ regex_lisa = re.compile("Final result.*: ([0-9]+)")
 TIMEOUT = 10
 # to taularize correctly
 MIN_FILENAME_PADDING = 32
-CMD_PADDING = 66
+LONG_CMD_PADDING = 80
+SHORT_CMD_PADDING = 62
 
 default_subprocess_config = dict(
 stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding="utf-8"
@@ -27,7 +28,7 @@ def get_mona_states(file: Path) -> Tuple[int, List[str]]:
     temp_path.write_text(output)
 
     cmd_2 = ["mona", "-u", str(temp_path)]
-    proc = subprocess.Popen(["mona", "-u", str(temp_path)], **default_subprocess_config)
+    proc = subprocess.Popen(cmd_2, **default_subprocess_config)
     output, _ = proc.communicate()
     search = regex_mona.search(output)
     assert search is not None
@@ -59,8 +60,8 @@ def main():
             lisa_nb_states, lisa_command = get_lisa_explicit_states(ltlf_file)
 
             padded_file = str(ltlf_file).ljust(MIN_FILENAME_PADDING)
-            padded_mona_cmd = ("'" + (" ".join(mona_command)) + "'").ljust(CMD_PADDING)
-            padded_lisa_cmd = ("'" + (" ".join(lisa_command)) + "'").ljust(CMD_PADDING)
+            padded_mona_cmd = (" ".join(mona_command)).replace("&& mona", "> tmp.mona && mona").ljust(LONG_CMD_PADDING)
+            padded_lisa_cmd = (" ".join(lisa_command)).ljust(SHORT_CMD_PADDING)
             print("\t".join([padded_file, padded_mona_cmd,  padded_lisa_cmd, mona_nb_states, lisa_nb_states]))
 
 
