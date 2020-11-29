@@ -223,7 +223,7 @@ The same happens for several examples (see below).
 
 Run the script `print_states.py`: 
 ```
-python scripts/print_states.py
+python3 scripts/print_states.py
 ```
 
 It will run both MONA and Lisa for every dataset item in `datasets/`,
