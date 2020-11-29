@@ -20,8 +20,6 @@ RUN apt-get install -y \
   curl \
   libboost-dev  \
   python3 \
-  # the following are needed to build SPOT documentation,
-  # which I wasn't able to disable
   pdf2svg \
   groff \
   latexmk \ 
