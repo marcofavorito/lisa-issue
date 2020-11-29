@@ -39,7 +39,16 @@ def get_mona_states(file: Path) -> Tuple[int, List[str]]:
 
 
 def get_lisa_explicit_states(file: Path):
-    command = ["./bin/lisa", "-exp", "-ltlf", str(file)]
+    content = file.read_text()
+    # replace Syft strong next with Lisa strong next
+    content = content.replace("X", "X[!]")
+    # replace Syft weak next with Lisa weak next
+    content = content.replace("N", "X")
+    name = "tmp.ltlf"
+    temp_path = Path(name)
+    temp_path.write_text(content)
+
+    command = ["./bin/lisa", "-exp", "-ltlf", str(temp_path)]
     proc = subprocess.Popen(command, **default_subprocess_config)
     output, err = proc.communicate()
     search = regex_lisa.search(output)
