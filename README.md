@@ -1,5 +1,7 @@
 # Issue on DFA construction of Lisa
 
+EDIT: Issue solved. This repository has no other purposes. Now it is read-only.
+
 Link to the issue:
 https://github.com/vardigroup/lisa/issues/2
 
